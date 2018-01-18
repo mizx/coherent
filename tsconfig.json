@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["esnext", "dom"],
+    "moduleResolution": "node",
+    "removeComments": true,
+    "declaration": true,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true
+  },
+  "include": [
+    "src/types/*"
+  ],
+  "files": [
+    "src/coherent.ts"
+  ]
+}

@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Coherent TypeScript module",
   "main": "index.ts",
+  "types": "index.d.ts",
   "repository": "https://github.com/mizx/coherent",
   "author": "Cody Mathisen",
   "license": "MIT",
@@ -11,5 +12,9 @@
   },
   "devDependencies": {
     "@types/node": "^9.3.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc -w"
   }
 }
