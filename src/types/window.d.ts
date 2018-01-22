@@ -1,3 +1,3 @@
 interface Window {
-  engine: any;
+  engine: Engine;
 }
